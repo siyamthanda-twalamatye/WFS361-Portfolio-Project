@@ -1,0 +1,31 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(5, 10, 48);
+}
+.instagram{
+    padding-left: 10px;
+}
+.instagram:hover {
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+.linkedIn{
+    padding-left: 10px;
+}
+.linkedIn:hover {
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+.github:hover {
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+.github{
+    padding-left: 10px;
+}
+.socials{
+    color: white;
+    padding-right:10px;
+    margin-top: 10px;
+}

@@ -1,0 +1,45 @@
+.homePage{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(50px, 1fr));
+    grid-template-rows: repeat(1, 1fr);
+    flex-direction: column;
+    background-color: rgb(5, 10, 48);
+}
+.intro{
+    grid-column: 1  / 4;
+    grid-row: 1;
+    color: white;
+    font-size: 80px;
+    padding-right: 10px;
+    width: auto;
+}
+.intro p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+.button{
+    color: white;
+    background-color: rgb(1, 128, 255);
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+.button:hover {
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+.homePage img{
+    grid-column: 2 / 4;
+    grid-row: 1 / 4;
+    margin-top: 250px;
+    margin-left: 700px;
+    width: 500px;
+    height: 460px;
+    border-radius: 600px;
+}
+.homePage img:hover {
+    transform: scale(1.05); 
+    cursor: pointer;
+}
